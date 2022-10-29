@@ -11,4 +11,9 @@ public class Homepage {
         return "Welcome to my app";
     }
 
+    @GetMapping("/second-page")
+    public String secondPage() {
+        return "Welcome to my app";
+    }
+
 }
