@@ -10,4 +10,9 @@ public class ProductPage {
     public String product() {
         return "Product details";
     }
+
+    @GetMapping("/product/reviews")
+    public String productReviews() {
+        return "Product reviews";
+    }
 }
