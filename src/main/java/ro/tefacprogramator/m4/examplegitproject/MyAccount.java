@@ -9,4 +9,10 @@ public class MyAccount {
     public String myAccount() {
         return "My account";
     }
+
+
+    @GetMapping("/my-account/address")
+    public String myAccountAddress() {
+        return "My account address";
+    }
 }
