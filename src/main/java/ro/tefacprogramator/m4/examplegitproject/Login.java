@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Cart {
+public class Login {
     
-    @GetMapping("/shopping-cart")
-    public String cart() {
-        return "Cart page";
+    @GetMapping("/login")
+    public String login() {
+        return "Login";
     }
 }
