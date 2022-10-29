@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OrderHistory {
     
-    @GetMapping("/")
+    @GetMapping("/order-history")
     public String orderHistory() {
         return "Order history";
     }
